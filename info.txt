@@ -1,0 +1,17 @@
+API REST
+
+Métodos comuns
+- GET - Buscar uma informação
+- PUT - Alterar uma informação
+- POST - Inserir uma informação
+- DELETE - Remover uma informação
+- PATCH - Alterar uma parte da informação
+
+Tipos de parâmetros
+- Body - {} - Objeto.
+- Query Params - http://localhost:8080/users?name=Rafael&age=38 - Opcionais
+- Route Params - http://localhost:8080/users/{name}/{age} - Obrigatórios
+
+ORM -> Object Relationa Mapper
+
+Repositório (Repository) -> Responsável por interagir com o banco de dados,

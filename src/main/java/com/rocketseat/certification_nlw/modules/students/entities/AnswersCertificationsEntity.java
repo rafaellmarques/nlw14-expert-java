@@ -33,17 +33,17 @@ public class AnswersCertificationsEntity {
     @JoinColumn(name = "certification_id", insertable = false, updatable = false)
     private CertificationStudentEntity certificationStudentEntity;
 
-    @JoinColumn(name = "student_id")
+    @Column(name = "student_id")
     private UUID studentID;
 
     @ManyToOne
     @JoinColumn(name = "student_id", insertable = false, updatable = false)
     private StudentEntity studentEntity;
 
-    @JoinColumn(name = "question_id")
+    @Column(name = "question_id")
     private UUID questionID;
 
-    @JoinColumn(name = "answer_id")
+    @Column(name = "answer_id")
     private UUID answerID;
     
     @Column(name = "is_correct")

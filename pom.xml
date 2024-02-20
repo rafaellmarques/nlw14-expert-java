@@ -10,14 +10,13 @@
 	</parent>
 	<groupId>com.rocketseat</groupId>
 	<artifactId>certification_nlw</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>certification_nlw</name>
 	<description>Projeto utilizado no NLW</description>
 	<properties>
 		<java.version>21</java.version>
 	</properties>
 	<dependencies>
-
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
@@ -53,7 +52,6 @@
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
